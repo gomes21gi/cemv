@@ -1,0 +1,100 @@
+# 1)
+# print('olá mundo!')
+
+# 2)
+# nome = input('Qual seu nome?')
+# print('Bem vindo, um prazer te conhecer', nome)
+
+# 3)
+# numb1 = int(input('Insira o primeiro número:'))
+# numb2 = int(input('Insira o segundo número:'))
+
+# resultado = numb1 + numb2
+# print("A soma é:", resultado)
+
+# 4)
+# a= input('Digite algo:')
+# print('O tipo priitivo desse valor é', type(a))
+# print('Só tem espaços?', a.isspace())
+# print('É um número?', a.isnumeric())
+# print('É alfabética?', a.isalpha())
+# print('É alfanumérico?', a.isalnum())
+# print('Está em maiúscula?', a.isupper())
+# print('Está em minúscula?', a.islower())
+# print('Está capitalizada?', a.istitle())
+# print('Está ?', a.isascii())
+# print('Está ?', a.isdecimal())
+# print('Está ?', a.isdigit())
+# print('Está ?', a.isidentifier())
+# print('Está ?', a.isprintable())
+
+# 5)
+# n = int(input('Digite um número:'))
+# a = n - 1
+# s = n + 1
+# print('O antecessor é {}, o valor é {} e o sucessor é {}' .format(a,n,s))
+# ouu
+# n = int(input('Digite um número:'))
+# print('O antecessor é {}, o valor é {} e o sucessor é {}' .format((n-1),n ,(n+1)))
+
+# 6)
+# n = int(input('Digite um número:'))
+# d = n*2
+# t = n*3
+# r = n**(1/2)
+# print('O numero é {}, o dobro é {}, o triplo é {} e a raiz quadrada é {}' .format(n,d,t,r))
+
+# 7)
+# n1 = float(input('Digite a nota1:'))
+# n2 = float(input('Digite a nota2:'))
+
+# calculo = (n1+n2)/2
+
+# print('Sua média é:', calculo)
+
+# 8)
+# medida = float(input('Digite o valor do metro:'))
+# cm = medida * 100
+# mm = medida * 1000
+
+# print('A medida de {}, e igual a {} em cm e {} mm'.format(medida,cm,mm))
+
+# 9)
+# num = int(input('Digite um número:'))
+
+# print('-'*12)
+# print('{} x {} = {}'.format(num,0,num*0))
+# print('{} x {} = {}'.format(num,1,num*1))
+# print('{} x {} = {}'.format(num,2,num*2))
+# print('{} x {} = {}'.format(num,3,num*3))
+# print('{} x {} = {}'.format(num,4,num*4))
+# print('{} x {} = {}'.format(num,5,num*5))
+# print('{} x {} = {}'.format(num,6,num*6))
+# print('{} x {} = {}'.format(num,7,num*7))
+# print('{} x {} = {}'.format(num,8,num*8))
+# print('{} x {} = {}'.format(num,9,num*9))
+# print('{} x {} = {}'.format(num,10,num*10))
+# print('-'*12)
+
+# 10)
+# real = float(input('Quanto de dinheiro você tem? R$'))
+
+# dolar = real / 3.27
+# print('Com R${:.2f} você pode obter U${:.2f}'.format(real, dolar))
+
+# 11)
+# largura = float(input('Digite a largura da parede:'))
+# altura = float(input('Digite a altura da parede:'))
+
+# area = largura * altura
+# print('A área da sua parede é {}m²'.format(area))
+
+# tinta = area / 2
+# print('Você precisa de {}l para pintar a area total da parede'.format(tinta))
+
+# 12)
+# preco = float(input('Digite o preço: R$'))
+# np = preco - (preco*5/100)
+# print('O novo preço é: R$',np)
+
+# 13)
